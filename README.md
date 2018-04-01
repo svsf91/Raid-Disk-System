@@ -2,7 +2,14 @@
 ### It consists of Raid0, Raid1, Raid4 
 ### Random tests are used to simulate Sequential Read/Write and Random Read/Write
 =================================
-### What is Raid
+### How to run:
+```
+sh mirror-test.sh
+sh raid0-test.sh
+sh raid4-test.sh
+```
+
+### What is Raid:
 #### Raid0:
 ![Raid0](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/RAID_0.svg/150px-RAID_0.svg.png)
 

@@ -1,20 +1,16 @@
 ## This is a implementation of Raid disk system
 ### It consists of Raid0, Raid1, Raid4 
 ### Random tests are used to simulate Sequential Read/Write and Random Read/Write
--------------------------------------------
+=================================
 ### What is Raid
 #### Raid0:
 ![Raid0](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/RAID_0.svg/150px-RAID_0.svg.png)
 ```
-RAID 0 (also known as a stripe set or striped volume) splits ("stripes") data evenly across two or more disks,
-without parity information, redundancy, or fault tolerance. 
+RAID 0 (also known as a stripe set or striped volume) splits ("stripes") data evenly across two or more disks, without parity information redundancy, or fault tolerance.  
 
-Since RAID 0 provides no fault tolerance or redundancy, the failure of one drive will cause the entire array to fail;
-as a result of having data striped across all disks, the failure will result in total data loss. 
-This configuration is typically implemented having speed as the intended goal.
+Since RAID 0 provides no fault tolerance or redundancy, the failure of one drive will cause the entire array to fail; as a result of having data striped across all disks, the failure will result in total data loss. This configuration is typically implemented having speed as the intended goal.  
 
-RAID 0 is normally used to increase performance, 
-although it can also be used as a way to create a large logical volume out of two or more physical disks
+RAID 0 is normally used to increase performance, although it can also be used as a way to create a large logical volume out of two or more physical disks  
 ```
 #### Raid1:
 ![Raid1](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/RAID_1.svg/150px-RAID_1.svg.png)

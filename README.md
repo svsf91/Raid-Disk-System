@@ -1,7 +1,7 @@
 ## This is a implementation of Raid disk system
 ### It consists of Raid0, Raid1, Raid4 
 ### Random tests are used to simulate Sequential Read/Write and Random Read/Write
-=================================
+---------------------------------------------
 ### How to run:
 ```
 sh mirror-test.sh
